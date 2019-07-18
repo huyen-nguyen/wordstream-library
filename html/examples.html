@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<title>WordStream Examples</title>
+<link rel="shortcut icon" href="../media/images/ws.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        line-height: initial;
+        color: #471e20 !important;
+        margin: 8px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    hr {
+        border: 0;
+        border-top: 1px solid #b789752e;
+        margin: 20px 0;
+    }
+
+</style>
+<body class="w3-white">
+<link rel="stylesheet" type="text/css" href="../styles/main.css" media="screen"/>
+
+<!-- w3-content defines a container for fixed size centered content,
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="title ">
+    <a href="../index.html" class="titleText">WordStream: Interactive Tool for Topic Evolution</a>
+    <!--<span>-->
+    <a href="examples.html" class="button active">Examples</a>
+    <a href="video.html" class="button still">Video</a>
+    <a href="../index.html" class="button still">Demo</a>
+
+    <!--</span>-->
+</div>
+
+<div class="w3-content" style="max-width:1400px;padding-top: 150px">
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+        <!-- Blog entries -->
+        <div class="w3-col">
+            <!-- Empty Wheel -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/emptywheel.png"
+                     alt="Empty Wheel Blog" style="width:100%" onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Empty Wheel Blog</b></h3>
+                    <h5><a href="https://www.emptywheel.net/"
+                           target="_blank"
+                           class="linkSource w3-opacity">https://www.emptywheel.net/</a></h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2013 - December 2013</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/quantum.png"
+                     alt="Quantum Computing Publications"
+                     style="width:100%" onclick=onClick(this)>
+                <div class="w3-container">
+                    <h3><b>Quantum Computing Publications</b></h3>
+                    <h5><a
+                            href="https://ieeexplore.ieee.org/search/searchresult.jsp?newsearch=true&queryText=quantum%20computing"
+                            target="_blank"
+                            class="linkSource w3-opacity">Quantum computing publications on IEEE</a></h5>
+                </div>
+                <div class="w3-container">
+                    <p>Time span: 1998 - 2018</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/huff.png"
+                     alt="Huffington Post" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Huffington Post</b></h3>
+                    <h5><a
+                            href="https://www.huffpost.com/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.huffpost.com/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2012 - December 2012</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/gtd.png"
+                     alt="Global Terrorism" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Global Terrorism</b></h3>
+                    <h5><a
+                            href="https://www.start.umd.edu/gtd/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.start.umd.edu/gtd/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 1997 - 2017</p>
+                    <p>The Global Terrorism Database (GTD) is an open-source database including information on terrorist events around the world. The GTD is currently the most comprehensive unclassified database on terrorist attacks in the world.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/acled_africa.png"
+                     alt="ACLED Africa" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Armed Conflict Location & Event Data - Africa</b></h3>
+                    <h5><a
+                            href="https://www.acleddata.com/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.acleddata.com/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 1997 - 2019</p>
+                    <p>The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict collection, analysis and crisis mapping project. ACLED collects the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events. Location: Africa.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/acled_asia.png"
+                     alt="ACLED Asia" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Armed Conflict Location & Event Data - Asia</b></h3>
+                    <h5><a
+                            href="https://www.acleddata.com/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.acleddata.com/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 2010 - 2019</p>
+                    <p>The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict collection, analysis and crisis mapping project. ACLED collects the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events. Location: Asia.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/acled_me.png"
+                     alt="ACLED Middle East" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Armed Conflict Location & Event Data - Middle East</b></h3>
+                    <h5><a
+                            href="https://www.acleddata.com/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.acleddata.com/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 2010 - 2019</p>
+                    <p>The Armed Conflict Location & Event Data Project (ACLED) is a disaggregated conflict collection, analysis and crisis mapping project. ACLED collects the dates, actors, types of violence, locations, and fatalities of all reported political violence and protest events. Location: Middle East.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/wiki.png"
+                     alt="WikiNews" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>WikiNews</b></h3>
+                    <h5><a
+                            href="https://en.wikinews.org/wiki/Main_Page"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://en.wikinews.org/wiki/Main_Page</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2014 - March 2015</p>
+                    <p>Wikinews is a free-content news source wiki and a project of the Wikimedia Foundation. The site works through collaborative journalism.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/crook.png"
+                     alt="Crooks and Liars" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Crooks and Liars</b></h3>
+                    <h5><a
+                            href="https://crooksandliars.com/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://crooksandliars.com/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2010 - December 2010</p>
+                    <p>Crooks and Liars is an award-winning site for progressive news and media criticism. Started and owned by John Amato in 2004, Crooksandliars.com was the first website to feature audio and video online, revolutionizing how political news is consumed and distributed on the Internet.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/Esquire.png"
+                     alt="Esquire" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Esquire</b></h3>
+                    <h5><a
+                            href="https://www.esquire.com"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.esquire.com</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2013 - December 2013</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/fact.png"
+                     alt="FactCheck" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>FactCheck</b></h3>
+                    <h5><a
+                            href="https://www.factcheck.org/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.factcheck.org/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: January 2013 - December 2013</p>
+                    <p>FactCheck.org is a project of the Annenberg Public Policy Center of the University of Pennsylvania, a nonpartisan, nonprofit “consumer advocate” for voters that aims to reduce the level of deception and confusion in U.S. politics.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/fries.png"
+                     alt="Fries Cards database" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Fries Cards database</b></h3>
+                    <h5><a
+                            href="https://github.com/clulab/reach/wiki/Datasets"
+                            target="_blank"
+                            class="linkSource w3-opacity">Fries Card database</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 2006 - 2013</p>
+                    <p>This database is generated by REACH group at the University of Arizona, containing cards extracted from PMC papers, divided into two types of protein interactions: increase activity and decrease activity. </p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/popcha.png"
+                     alt="PopCha" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>PopCha! Movies Star</b></h3>
+                    <h5><a
+                            href="https://www.themoviedb.org/"
+                            target="_blank"
+                            class="linkSource w3-opacity">PopCha database</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 2001 - 2013</p>
+                    <p>The PopCha! database contains movies and actors, divided in five categories: Comedy, Drama,
+                        Action, Fantasy and Horror.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/imdb.png"
+                     alt="IMDb" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>IMDb co-star database</b></h3>
+                    <h5><a
+                            href="https://www.imdb.com/interfaces/"
+                            target="_blank"
+                            class="linkSource w3-opacity">https://www.imdb.com/interfaces/</a>
+                    </h5>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 2005 - 2015</p>
+                </div>
+            </div>
+            <hr>
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <img src="../media/vis.png"
+                     alt="Visualization publications" style="width:100%"
+                     onclick="onClick(this)">
+                <div class="w3-container">
+                    <h3><b>Visialization Publications</b></h3>
+                </div>
+
+                <div class="w3-container">
+                    <p>Time span: 1995 - 2016</p>
+                    <p>These are top authors' name in four venue for Visualization Publications: Vis, VAST, InfoVis and SciVis.</p>
+                </div>
+            </div>
+            <hr>
+        </div>
+
+    </div>
+    <br>
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" style="color: white"></p>
+    </div>
+</div>
+<!-- Footer -->
+<footer class="w3-container">
+    <p style="text-align: center">Last updated: June 6, 2019</p>
+</footer>
+<script>
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        document.getElementById("modal01").style.width = "100%"
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+</script>
+</body>
+</html>

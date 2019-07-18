@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WordStream</title>
+    <link rel="shortcut icon" href="media/images/wslib.png">
+    <script src="js/d3.v4.min.js"></script>
+</head>
+<body>
+<script src="js/wordstream.min.js"></script>
+<script>
+    // example use
+    let svg = d3.select("body").append('svg')
+        .attr("width", 1000)
+        .attr("height", 660);
+
+    let config = {
+        topWord: 20,
+        minFont: 10,
+        maxFont: 30,
+        tickFont: 12,
+        legendFont: 12,
+        curve: d3.curveMonotoneX
+    };
+
+    d3.json("data/data.json", function (error, data) {
+        wordstream(svg, data, config)
+    });
+</script>
+</body>
+</html>
