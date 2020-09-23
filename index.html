@@ -6,14 +6,15 @@
     <title>WordStream</title>
     <link rel="shortcut icon" href="media/images/wslib.png">
     <script src="js/d3.v4.min.js"></script>
+    <script src="js/wordstream.min.js"></script>
+
 </head>
 <body>
-<script src="js/wordstream.min.js"></script>
 <script>
     // example use
     let svg = d3.select("body").append('svg')
         .attr("width", 1000)
-        .attr("height", 660);
+        .attr("height", 800);
 
     let config = {
         topWord: 20,
@@ -25,6 +26,7 @@
     };
 
     d3.json("data/data.json", function (error, data) {
+        console.log(data)
         wordstream(svg, data, config)
     });
 </script>
