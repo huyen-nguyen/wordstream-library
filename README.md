@@ -8,11 +8,11 @@ Input:
 - Config for parameters
 
 Example can be found at [index.html](https://github.com/huyen-nguyen/wordstreamlib/blob/master/index.html), result: 
-https://nnhuyen.github.io/wordstreamlib/
+https://huyen-nguyen.github.io/wordstreamlib/
 ______
 
 WordStream demonstration can be found at:
-https://nnhuyen.github.io/WordStream/
+https://huyen-nguyen.github.io/WordStream/
 
 [![WS](https://github.com/huyen-nguyen/WordStream/blob/master/images/Huffington.png)]()
 
