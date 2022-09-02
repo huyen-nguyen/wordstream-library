@@ -8,7 +8,7 @@ Input:
 - Config for parameters
 
 Example can be found at [index.html](https://github.com/huyen-nguyen/wordstreamlib/blob/master/index.html), result: 
-https://huyen-nguyen.github.io/wordstreamlib/
+https://huyen-nguyen.github.io/wordstream-library/
 ______
 
 WordStream demonstration can be found at:
