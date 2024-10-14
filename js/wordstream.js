@@ -859,6 +859,8 @@
                         .attr("transform", function (d, i) {
                             return 'translate(' + thePoint.data.x + ',' + (thePoint[1] - fontSize / 2) + ')';
                         });
+                    d3.select(clonedParentNode).select("text")
+                        .style("text-shadow", "-0.5px 0.5px 0 #fff, -0.5px -0.5px 0 #fff, 0.5px -0.5px 0 #fff, -0.5px 0.5px 0 #fff, 0.5px 0.5px 0 #fff")
                 });
                 //Add the first and the last points
                 points[0][1] = points[1][1];//First point
