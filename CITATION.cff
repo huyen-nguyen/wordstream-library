@@ -1,0 +1,23 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: WordStream Library
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Huyen N.
+    family-names: Nguyen
+    orcid: 'https://orcid.org/0000-0001-6554-2327'
+    affiliation: Harvard Medical School
+repository-code: 'https://github.com/huyen-nguyen/wordstream-library'
+url: 'https://github.com/iDataVisualizationLab/WordStream'
+abstract: >-
+  Simple library in JavaScript for WordStream, could be used
+  as a template to generate WordStream visualization.
+keywords:
+  - WordStream
+  - D3.js
+license: MIT
